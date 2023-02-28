@@ -1,0 +1,31 @@
+div {
+    color:#aa6644
+}
+
+.expensive {
+    color: red;
+}
+
+img {
+    max-width: 300px;
+}
+
+.display {
+    position: relative;
+    height: 275px;
+}
+
+.display > * {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    left: 30px;
+}
+
+.display > div {
+    top: 25px;
+    left: 25px;
+    background-color: #ebd5b3;
+    height: 275px;
+    z-index: -1;
+}
